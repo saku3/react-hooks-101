@@ -6,7 +6,6 @@ import EventForm from './EventForm';
 import Events from './Events';
 
 import reducer from '../reducers';
-import Event from './Event';
 
 const App = () => {
   const [state, dispatch] = useReducer(reducer, []);
